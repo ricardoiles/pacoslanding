@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "Nirmala UI Semilight";
+    src: url("http://db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff");
+}
+html, body {
+    background:  rgb(245, 245, 245);
+    font-family: Nirmala UI Semilight;
+    color: black;
+}
+
+.navbar{
+    background-color:  rgb(245, 245, 245);
+    position: fixed;
+    width: 100%;
+}
+.navbar-link, a.navbar-item:hover{
+	background-color: inherit;
+	color: rgb(210,23,52);
+}
+/*primer section*/
+.pacos-left-contacto{
+    text-align: center;
+    margin-top: 50px;
+    background-color:  rgb(245, 245, 245);
+    color: white;
+    height: 100vh;
+    background-image: url("../images/quienessomos_cover.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+}
+
+.card{
+    margin-top: 0%;
+    margin-left: 25%;
+    width: 50%;
+    border: 1px solid rgb(191,191,191);
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: justify;
+}
+.pacos-card-head{
+    background-color: rgb(242,242,242);
+    border-bottom: 1px solid rgb(191,191,191);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+}
+.title{
+    font-weight: 100;
+    color: black;
+    font-size: 15px;
+}
+.pacos-contactanos-left-texto{
+    margin-top: 5%;
+    font-size: 50px;
+}
+.pacos-enviar-btn{
+    background-color: rgb(210,23,52);
+    color: white;
+}
+.pacos-enviar{
+    text-align: center;
+}
+.pacos-enviar-btn:hover{
+    color: white;
+}
+.pacos-red-contacto{
+    text-align: center;
+}
+.facebook{
+    color: #3273dc;
+}
+.twitter{
+    color: #4dc5ff;
+}
+.whatsapp{
+    color: green;
+}
+.email{
+    color: rgb(210,23,52);
+}
+.pacos-red-text{
+    color: rgb(210,23,52);
+}
+
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .pacos-texto-primersection{
+        font-size: 25px;
+    }
+    .pacos-image-sitespacos-primerasection{
+        width: 100%;
+        padding: 0px;
+    }
+    .pacos-image-b2call-segundasection{
+        background-size: 180% 70%;
+    }
+    .pacos-divtexto-izquierda--segundasection{
+        padding-top: 45%;
+        padding-left: 10%;
+        padding-right: 20%;
+    }
+    .pacos-texto-izquierda--segundasection{
+        font-size: 20px;
+    }
+    .pacos-divtexto-derecha--segundasection{
+        padding-top: 35%;
+        padding-left: 0%;
+        padding-right: 20%;
+    }
+    .pacos-texto-derecha--segundasection{
+        font-size: 20px;
+    }
+    .pacos-image-3b2call-tercerasection{
+        background-size: 190% 90%;
+    }
+    .pacos-divtexto-izquierda--tercerasection{
+        margin-top: 20%;
+        margin-left: 7%;
+        margin-right: 0%;
+    }
+    .pacos-texto-izquierda--tercerasection{
+        font-size: 30px;
+    }
+    .pacos-divtexto-derecha--tercerasection{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .pacos-texto-derecha--tercerasection{
+        font-size: 20px;
+    }
+    .pacos-image-4b2call-cuartasection{
+        background-image: url(../images/4B2Call2.png);
+        background-size: 105% 70%;
+    }
+    .pacos-divtexto-izquierda--cuartasection{
+        padding-left: 30%;;
+        padding-right: 0%;
+    }
+    .pacos-texto-izquierda--cuartasection{
+     font-size: 30px;   
+    }
+    .pacos-divtexto-derecha--cuartasection{
+        margin-top: 35%;
+    }
+    .pacos-image-4b2call-quintasection{
+        background-image: url(../images/5B2Call2.png);
+        background-size: 120% 90%;
+    }
+    .pacos-texto-derecha--cuartasection{
+        font-size: 20px;
+    }
+    .pacos-divtexto-derecha--quintasection{
+        margin-top: 65%;
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align: center;
+    }
+    .pacos-texto-derecha--quintasection{
+        font-size: 30px;
+    }
+    .pacos-image-4b2call-sextasection{
+        background-image: url(../images/6B2Call2.png);
+        background-size: 120% 95%;
+    }
+    .pacos-divtexto-izquierda--sextasection{
+        text-align: center;
+        margin-top: 80%;
+    }
+    .pacos-texto-izquierda--sextasection{
+        font-size: 30px;
+    }
+    .pacos-divtexto-derecha--sextasection{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .pacos-texto-derecha--sextasection{
+        font-size: 20px;
+    }
+    .pacos-image-4b2call-septimasection{
+        background-image: url(../images/7B2Call2.png);
+        background-size: 110% 93%;
+    }
+    .pacos-divtexto-izquierda--septimasection{
+        text-align: center;
+        padding-top: 110%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .pacos-divtexto-izquierda--contactosection{
+        text-align: center;
+    }
+    .pacos-button--arrow-down-contactosection{
+        margin: 0%;
+        transform: rotate(90deg);
+    }
+    .card{
+        max-width: 100%;
+        margin-left: 0%;
+    }
+}

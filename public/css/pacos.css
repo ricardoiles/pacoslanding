@@ -1,0 +1,341 @@
+@font-face {
+    font-family: "Nirmala UI Semilight";
+    src: url("http://db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff");
+}
+html, body {
+    background:  rgb(245, 245, 245);
+    font-family: Nirmala UI Semilight;
+    color: black;
+}
+.navbar{
+    background-color:  rgb(245, 245, 245);
+    position: fixed;
+    width: 100%;
+}
+.navbar-link, a.navbar-item:hover{
+    background-color: inherit;
+    color: rgb(210,23,52);
+}
+.pacos-suscribirme{
+    margin-top: 40px;
+}
+.pacos-no-ahref:hover{
+    color: black;
+}
+
+/*segunda section*/
+.pacos-image-b2call-segundasection{
+    
+    height: 100vh;
+}
+.pacos-divtexto-derecha--segundasection{
+    text-align: center;
+    padding-top: 0%;
+    padding-right: 7%;
+    padding-left: 8%;
+    line-height: 1.1;
+}
+.pacos-texto-derecha--segundasection{
+    font-size: 35px;
+}
+.pacos-texto-derecha-abajo--segundasection{
+    font-size: 20px;
+}
+.pacos-divtexto-izquierda--segundasection{
+    background-image: url("../images/1B2B.png");
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(245, 245, 245);
+    background-size: 80% 95%;
+    height: 90vh;
+    text-align: center;
+    padding-top: 11%;
+    padding-right: 20%;
+    padding-left: 15%;
+    line-height: 1.1;
+}
+.pacos-texto-izquierda--segundasection{
+    font-size: 20px;
+    color: white;
+}
+.pacos-button--arrow-down-segundasection{
+    text-align: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(210,23,52);
+    color: white;
+}
+.pacos-button--arrow-down-segundasection:hover{
+    color: white;
+}
+/*tercera section*/
+.pacos-image-4b2call-ultimasection{
+    background-image: url("../images/7B2Ball.png");
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(245, 245, 245);
+    background-size: 95% 90%;
+    height: 100vh;
+}
+.pacos-divtexto-izquierda--ultimasection{
+    text-align: center;
+    padding-top: 8%;
+    padding-right: 10%;
+    padding-left: 5%;
+    line-height: 1.1;
+}
+.pacos-texto-izquierda--ultimasection{
+    font-size: 20px;
+}
+
+/*sexta section*/
+.pacos-image-4b2call-sextasection{
+    background-image: url("../images/6B2Ball.png");
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(245, 245, 245);
+    background-size: 100% 90%;
+    height: 100vh;
+}
+.pacos-divtexto-derecha--sextasection{
+    text-align: center;
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-left: 15%;
+    line-height: 1.1;
+}
+.pacos-texto-derecha--sextasection{
+    font-size: 40px;
+}
+.pacos-divtexto-izquierda--sextasection{
+    text-align: center;
+    padding-top: 10%;
+    padding-right: 15%;
+    padding-left: 10%;
+    line-height: 1.1;
+}
+.pacos-texto-izquierda--sextasection{
+    font-size: 40px;
+}
+.pacos-button--arrow-down-sextasection{
+    text-align: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(210,23,52);
+    color: white;
+}
+.pacos-button--arrow-down-sextasection:hover{
+    color: white;
+}
+/*septima section*/
+.pacos-image-4b2call-septimasection{
+    background-image: url("../images/4B2Ball.png");
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(245, 245, 245);
+    background-size: 100% 90%;
+    height: 100vh;
+}
+.pacos-divtexto-izquierda--septimasection{
+    text-align: center;
+    padding-top: 8%;
+    padding-right: 15%;
+    padding-left: 10%;
+    line-height: 1.1;
+}
+.pacos-texto-izquierda--septimasection{
+    font-size: 45px;
+}
+.pacos-button--arrow-down-cuartasection{
+    text-align: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(210,23,52);
+    color: white;
+}
+.pacos-button--arrow-down-cuartasection:hover{
+    color: white;
+}
+.pacos-minitexto{
+    font-size: 20px;
+}
+.pacos-sucribirme-btn{
+    background-color: rgb(210,23,52);
+    color: white;
+}
+.pacos-sucribirme-btn:hover{
+    color: white;
+}
+/*contacto section*/
+.pacos-image-4b2call-contactosection{
+    height: 100vh;
+}
+.pacos-divtexto-izquierda--contactosection{
+    text-align: left;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    line-height: 1.1;
+    background-image: url("../images/contactoB2Ccall.png");
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(245, 245, 245);
+    background-size: 100% 90%;
+    height: 100vh;
+}
+.pacos-texto-izquierda--contactosection{
+    font-size: 50px;
+}
+.pacos-texto-izquierda-abajo--contactosection{
+    margin-left: 25%;
+}
+.pacos-button--arrow-down-contactosection{
+    margin-left: 40%;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(210,23,52);
+    color: white;
+}
+.card{
+    border: 1px solid rgb(191,191,191);
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: justify;
+}
+.pacos-card-head{
+    background-color: rgb(242,242,242);
+    border-bottom: 1px solid rgb(191,191,191);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.title{
+    font-weight: 100;
+    color: black;
+    font-size: 15px;
+}
+.pacos-red-text{
+    color: rgb(210,23,52);
+}
+.pacos-enviar-contactosection{
+    background-color: rgb(210,23,52);
+    color: white;
+    margin-left: 33%;
+}
+.pacos-enviar-contactosection:hover{
+    color: white;
+}
+.show-last-br{
+    display: none;
+}
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .pacos-divtexto-izquierda--segundasection{
+        background-size: 100% 80%;
+        padding-top: 30%;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .pacos-divtexto-derecha--segundasection{
+        padding-top: 0%;
+    }
+    .pacos-texto-derecha--segundasection{
+        font-size: 30px;
+    }
+    .pacos-divimage-primersection{
+        margin-top: 50%;
+    }
+    .pacos-divtexto-primersection{
+        margin-top: -180px;
+    }
+    .pacos-texto-primersection{
+        font-size: 30px;
+    }
+    .pacos-image-sitespacos-primerasection{
+        padding-top: -100px;
+        margin-top: -130px;
+        width: 95%;
+    }
+    .pacos-image-4b2call-quintasection{
+        background-size: 100% 80%;
+        background-image: url(../images/3B2Ball2.png);
+    }
+    .pacos-divtexto-derecha--quintasection{
+        text-align: center;
+        margin-top: 60%;
+    }
+    .pacos-texto-derecha--quintasection{
+        font-size: 30px;
+    }
+    .pacos-image-4b2call-septimasection{
+        background-image: url(../images/4B2Ball-2.png);
+        background-size: 120% 85%;
+    }
+    .pacos-divtexto-izquierda--septimasection{
+        margin-top: 80%;
+        text-align: center;
+    }
+    .pacos-texto-izquierda--sextasection{
+        font-size: 30px;
+    }
+    .pacos-button--arrow-down-cuartasection{
+        margin: 0%;
+    }
+    .pacos-image-4b2call-cuartasection{
+        background-image: url(../images/order-all.png);
+        background-size: 100% 80%;
+    }
+    .pacos-divtexto-izquierda--cuartasection{
+        
+    }
+    .pacos-texto-izquierda--cuartasection{
+        font-size: 30px;
+    }
+    .pacos-divtexto-derecha--cuartasection{
+        padding-top: 50%; 
+    }
+    .pacos-image-4b2call-sextasection{
+        background-image: url(../images/6B2Ball2.png);
+        background-size: 110% 90%;
+    }
+    .pacos-divtexto-izquierda--sextasection{
+        padding-top: 95%;
+        text-align: center;
+    }
+    .pacos-texto-izquierda--sextasection{
+        font-size: 30px;
+    }
+    .pacos-image-4b2call-ultimasection{
+        background-image: url(../images/7B2Ball2.png);
+        background-size: 115% 100%;
+    }
+    .pacos-divtexto-izquierda--ultimasection{
+        padding-top: -100px;
+        margin-top: -50px;
+    }
+    .pacos-texto-izquierda--sextasection{
+        font-size: 30px;
+    }
+    .last-br{
+        display: none;
+    }
+    .pacos-divtexto-izquierda--contactosection{
+        text-align: center;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .pacos-texto-izquierda-abajo--contactosection{
+        margin: 0%;
+    }
+    .show-last-br{
+        display: block;
+    }
+    .pacos-button--arrow-down-contactosection{
+        margin: 0%;
+        transform: rotate(90deg);
+    }
+    .card{
+        max-width: 100%;
+        margin-left: 0%;
+    }
+}

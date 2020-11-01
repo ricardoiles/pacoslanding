@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Nirmala UI Semilight";
+    src: url("http://db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff");
+}
+html, body {
+    background:  rgb(245, 245, 245);
+    font-family: Nirmala UI Semilight;
+    color: black;
+}
+.navbar{
+    background-color:  rgb(245, 245, 245);
+}
+.pacos-no-ahref:hover{
+    color: black;
+}
+
+/*contacto section*/
+.pacos-image--contactosection{
+    height: 100vh;
+}
+.pacos-divtexto-izquierda--contactosection{
+    text-align: center;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    line-height: 1.1;
+    background-image: url("../images/contactoB2Ccall.png");
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(245, 245, 245);
+    background-size: 100% 90%;
+    height: 93vh;
+}

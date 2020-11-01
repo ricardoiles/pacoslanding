@@ -1,0 +1,334 @@
+@font-face {
+    font-family: "Nirmala UI Semilight";
+    src: url("http://db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff");
+}
+html, body {
+    background:  rgb(245, 245, 245);
+    font-family: Nirmala UI Semilight;
+    color: black;
+}
+.pacos-success-notify{
+    font-size: 20px;
+}
+.navbar{
+    background-color:  rgb(245, 245, 245);
+    position: fixed;
+    width: 100%;
+}
+.navbar-link, a.navbar-item:hover{
+    background-color: inherit;
+    color: rgb(210,23,52);
+}
+.pacos-hero-section{
+    margin-top: 40px;
+}
+.pacos-no-ahref:hover{
+    color: black;
+}
+/*primer section*/
+.pacos-divimage-primersection{
+    text-align: center;
+}
+.pacos-imageb2c-primersection{
+    width: 60%;
+    padding-top: 5%;
+    display: block;
+    margin: auto;
+}
+.pacos-divtexto-primersection{
+    text-align: center;
+    padding-top: 3%;
+    padding-right: 7%;
+    padding-left: 5%;
+    line-height: 1.2;
+}
+.pacos-texto-primersection{
+    font-size: 30px;
+}
+.pacos-button--arrow-down-primersection{
+    text-align: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(210,23,52);
+    color: white;
+}
+.pacos-button--arrow-down-primersection:hover{
+    color: white;
+}
+.pacos-image-sitespacos-primerasection{
+    width: 60%;
+    padding-top: 0%;
+    display: block;
+    margin: auto;
+}
+/*segunda section*/
+.pacos-image-b2call-segundasection{
+    margin-top: 25px;
+    background-image: url("../images/2B2C-all.png");
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(245, 245, 245);
+    background-size: 90% 100%;
+    height: 100vh;
+}
+.pacos-divtexto-derecha--segundasection{
+    text-align: center;
+    padding-top: 5%;
+    padding-right: 6%;
+    padding-left: 20%;
+    line-height: 1.1;
+}
+.pacos-texto-derecha--segundasection{
+    font-size: 50px;
+    
+}
+.pacos-divtexto-izquierda--segundasection{
+    text-align: center;
+    padding-top: 14%;
+    padding-right: 14%;
+    padding-left: 6%;
+    line-height: 1.1;
+}
+.pacos-texto-izquierda--segundasection{
+    font-size: 50px;
+    color: white;
+}
+.pacos-minitext{
+    font-size: 20px;
+    line-height: 1;
+}
+.pacos-button--arrow-down-segundasection{
+    text-align: center;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    color: black;
+}
+.pacos-button--arrow-down-segundasection:hover{
+    color: rgb(210,23,52);
+}
+/*tercera section*/
+.pacos-image-3b2call-tercerasection{
+    background-image: url("../images/3B2Call.png");
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(245, 245, 245);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 100%;
+}
+.pacos-divtexto-derecha--tercerasection{
+    text-align: center;
+    padding-top: 12%;
+    padding-right: 6%;
+    padding-left: 20%;
+    line-height: 1.1;
+}
+.pacos-texto-derecha--tercerasection{
+    font-size: 40px;
+    
+}
+.pacos-divtexto-izquierda--tercerasection{
+    text-align: center;
+    padding-top: 13%;
+    padding-right: 3%;
+    padding-left: 6%;
+    line-height: 1.1;
+}
+.pacos-texto-izquierda--tercerasection{
+    font-size: 50px;
+    color: black;
+}
+.pacos-button--arrow-down-tercerasection{
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(210,23,52);
+    color: white;
+}
+/*septima section*/
+.pacos-image-4b2call-septimasection{
+    background-image: url("../images/7B2Call.png");
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(245, 245, 245);
+    background-size: 100% 90%;
+    height: 100vh;
+}
+.pacos-divtexto-izquierda--septimasection{
+    text-align: center;
+    padding-top: 8%;
+    padding-right: 10%;
+    padding-left: 5%;
+    line-height: 1.1;
+}
+.pacos-texto-izquierda--septimasection{
+    font-size: 50px;
+}
+.pacos-sucribirme-btn{
+    background-color: rgb(210,23,52);
+    color: white;
+}
+.pacos-sucribirme-btn:hover{
+    color: white;
+}
+/*contacto section*/
+
+.pacos-texto-izquierda--contactosection{
+    font-size: 50px;
+}
+.pacos-button--arrow-down-contactosection{
+    margin-left: 30%;
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(210,23,52);
+    color: white;
+}
+.card{
+    border: 1px solid rgb(191,191,191);
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: justify;
+}
+.pacos-card-head{
+    background-color: rgb(242,242,242);
+    border-bottom: 1px solid rgb(191,191,191);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.title{
+    font-weight: 100;
+    color: black;
+    font-size: 15px;
+}
+.pacos-red-text{
+    color: rgb(210,23,52);
+}
+.pacos-enviar-contactosection{
+    background-color: rgb(210,23,52);
+    color: white;
+    margin-left: 37%;
+}
+.pacos-enviar-contactosection:hover{
+    color: white;
+}
+
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .pacos-texto-primersection{
+        font-size: 25px;
+    }
+    .pacos-image-sitespacos-primerasection{
+        width: 100%;
+        padding: 0px;
+    }
+    .pacos-image-b2call-segundasection{
+        background-size: 180% 70%;
+    }
+    .pacos-divtexto-izquierda--segundasection{
+        padding-top: 45%;
+        padding-left: 10%;
+        padding-right: 20%;
+    }
+    .pacos-texto-izquierda--segundasection{
+        font-size: 20px;
+    }
+    .pacos-divtexto-derecha--segundasection{
+        padding-top: 35%;
+        padding-left: 0%;
+        padding-right: 20%;
+    }
+    .pacos-texto-derecha--segundasection{
+        font-size: 20px;
+    }
+    .pacos-image-3b2call-tercerasection{
+        background-size: 190% 90%;
+    }
+    .pacos-divtexto-izquierda--tercerasection{
+        margin-top: 20%;
+        margin-left: 7%;
+        margin-right: 0%;
+    }
+    .pacos-texto-izquierda--tercerasection{
+        font-size: 30px;
+    }
+    .pacos-divtexto-derecha--tercerasection{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .pacos-texto-derecha--tercerasection{
+        font-size: 20px;
+    }
+    .pacos-image-4b2call-cuartasection{
+        background-image: url(../images/4B2Call2.png);
+        background-size: 105% 70%;
+    }
+    .pacos-divtexto-izquierda--cuartasection{
+        padding-left: 30%;;
+        padding-right: 0%;
+    }
+    .pacos-texto-izquierda--cuartasection{
+     font-size: 30px;   
+    }
+    .pacos-divtexto-derecha--cuartasection{
+        margin-top: 35%;
+    }
+    .pacos-image-4b2call-quintasection{
+        background-image: url(../images/5B2Call2.png);
+        background-size: 120% 90%;
+    }
+    .pacos-texto-derecha--cuartasection{
+        font-size: 20px;
+    }
+    .pacos-divtexto-derecha--quintasection{
+        margin-top: 65%;
+        padding-left: 0%;
+        padding-right: 0%;
+        text-align: center;
+    }
+    .pacos-texto-derecha--quintasection{
+        font-size: 30px;
+    }
+    .pacos-image-4b2call-sextasection{
+        background-image: url(../images/6B2Call2.png);
+        background-size: 120% 95%;
+    }
+    .pacos-divtexto-izquierda--sextasection{
+        text-align: center;
+        margin-top: 80%;
+    }
+    .pacos-texto-izquierda--sextasection{
+        font-size: 30px;
+    }
+    .pacos-divtexto-derecha--sextasection{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .pacos-texto-derecha--sextasection{
+        font-size: 20px;
+    }
+    .pacos-image-4b2call-septimasection{
+        background-image: url(../images/7B2Call2.png);
+        background-size: 110% 93%;
+    }
+    .pacos-divtexto-izquierda--septimasection{
+        text-align: center;
+        padding-top: 110%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .pacos-divtexto-izquierda--contactosection{
+        text-align: center;
+    }
+    .pacos-button--arrow-down-contactosection{
+        margin: 0%;
+        transform: rotate(90deg);
+    }
+    .card{
+        max-width: 100%;
+        margin-left: 0%;
+    }
+}

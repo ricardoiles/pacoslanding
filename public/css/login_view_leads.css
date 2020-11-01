@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "Nirmala UI Semilight";
+    src: url("http://db.onlinewebfonts.com/t/b5eae9bab2129f4acd5fcd349dc804fe.woff");
+}
+html, body {
+    background:  rgb(245, 245, 245);
+    font-family: Nirmala UI Semilight;
+    color: black;
+}
+.navbar{
+    background-color:  rgb(245, 245, 245);
+}
+.pacos-no-ahref:hover{
+    color: black;
+}
+
+/*contacto section*/
+.pacos-image-4b2call-contactosection{
+    height: 100vh;
+}
+.pacos-divtexto-izquierda--contactosection{
+    text-align: center;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    line-height: 1.1;
+    background-image: url("../images/contactoB2Ccall.png");
+    background-repeat: no-repeat, repeat;
+    background-color: rgb(245, 245, 245);
+    background-size: 100% 90%;
+    height: 93vh;
+}
+.pacos-texto-izquierda--contactosection{
+    font-size: 50px;
+}
+pacos-texto-izquierda-abajo--contactosection{
+    font-size: 20px;
+}
+.pacos-button--arrow-down-contactosection{    
+    text-align: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(210,23,52);
+    color: white;
+}
+.card{
+    border: 1px solid rgb(191,191,191);
+    border-radius: 5px;
+    max-width: 70%;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.pacos-card-head{
+    background-color: rgb(242,242,242);
+    width: 100%;
+    border-bottom: 1px solid rgb(191,191,191);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.title{
+    font-weight: 100;
+    color: black;
+    font-size: 15px;
+}
+.pacos-red-text{
+    color: rgb(210,23,52);
+}
+.pacos-enviar-contactosection{
+    background-color: rgb(210,23,52);
+    color: white;
+    margin-left: 40%;
+}
