@@ -37,10 +37,13 @@ html, body {
 	text-align: center;
 	align-items: center;
 }
-.pacos-somos--sites-image{
+.pacos-somos--sites-image-web{
 	width: 60%;
 	height: 90%;
 	margin-top: 7%;
+}
+.pacos-somos--sites-image-movil{
+    display: none;
 }
 .pacos-20px-texto{
 font-size: 40px;
@@ -169,117 +172,37 @@ line-height: 100%;
 @media only screen
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-    .pacos-texto-primersection{
-        font-size: 25px;
+    .pacos-somos--sites-image-web{
+        display: none;
     }
-    .pacos-image-sitespacos-primerasection{
-        width: 100%;
-        padding: 0px;
+    .pacos-somos--sites-image-movil{
+        display: block;
     }
-    .pacos-image-b2call-segundasection{
-        background-size: 180% 70%;
+    .pacos-somos-left-texto{
+        margin-left: 5%;
+        max-width: 90%;
     }
-    .pacos-divtexto-izquierda--segundasection{
-        padding-top: 45%;
-        padding-left: 10%;
-        padding-right: 20%;
+    .pacos-hero-section{
+        height: 75vh;
     }
-    .pacos-texto-izquierda--segundasection{
-        font-size: 20px;
+    .pacos-team-pdl-divteam{
+        line-height: 100%;
     }
-    .pacos-divtexto-derecha--segundasection{
-        padding-top: 35%;
-        padding-left: 0%;
-        padding-right: 20%;
+    .pacos-button--arrow-down-red-team{
+        right: 40%;
+        top: 10%;
     }
-    .pacos-texto-derecha--segundasection{
-        font-size: 20px;
+    .pacos-final-left-texto{
+        margin-left: 5%;
+        max-width: 90%;
     }
-    .pacos-image-3b2call-tercerasection{
-        background-size: 190% 90%;
-    }
-    .pacos-divtexto-izquierda--tercerasection{
-        margin-top: 20%;
-        margin-left: 7%;
-        margin-right: 0%;
-    }
-    .pacos-texto-izquierda--tercerasection{
+    .pacos-20px-texto{
         font-size: 30px;
     }
-    .pacos-divtexto-derecha--tercerasection{
-        padding-left: 0%;
-        padding-right: 0%;
+    .pacos-final--sites-image{
+        width: 80%;
     }
-    .pacos-texto-derecha--tercerasection{
-        font-size: 20px;
-    }
-    .pacos-image-4b2call-cuartasection{
-        background-image: url(../images/4B2Call2.png);
-        background-size: 105% 70%;
-    }
-    .pacos-divtexto-izquierda--cuartasection{
-        padding-left: 30%;;
-        padding-right: 0%;
-    }
-    .pacos-texto-izquierda--cuartasection{
-     font-size: 30px;   
-    }
-    .pacos-divtexto-derecha--cuartasection{
-        margin-top: 35%;
-    }
-    .pacos-image-4b2call-quintasection{
-        background-image: url(../images/5B2Call2.png);
-        background-size: 120% 90%;
-    }
-    .pacos-texto-derecha--cuartasection{
-        font-size: 20px;
-    }
-    .pacos-divtexto-derecha--quintasection{
-        margin-top: 65%;
-        padding-left: 0%;
-        padding-right: 0%;
-        text-align: center;
-    }
-    .pacos-texto-derecha--quintasection{
-        font-size: 30px;
-    }
-    .pacos-image-4b2call-sextasection{
-        background-image: url(../images/6B2Call2.png);
-        background-size: 120% 95%;
-    }
-    .pacos-divtexto-izquierda--sextasection{
-        text-align: center;
-        margin-top: 80%;
-    }
-    .pacos-texto-izquierda--sextasection{
-        font-size: 30px;
-    }
-    .pacos-divtexto-derecha--sextasection{
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-    .pacos-texto-derecha--sextasection{
-        font-size: 20px;
-    }
-    .pacos-image-4b2call-septimasection{
-        background-image: url(../images/7B2Call2.png);
-        background-size: 110% 93%;
-    }
-    .pacos-divtexto-izquierda--septimasection{
-        text-align: center;
-        padding-top: 110%;
-        padding-left: 0%;
-        padding-right: 0%;
-    }
-    .pacos-divtexto-izquierda--contactosection{
-        text-align: center;
-    }
-    .pacos-button--arrow-down-contactosection{
-        margin: 0%;
-        transform: rotate(90deg);
-    }
-    .card{
-        max-width: 100%;
-        margin-left: 0%;
+    .pacos-final-section{
+        height: 140vh;
     }
 }

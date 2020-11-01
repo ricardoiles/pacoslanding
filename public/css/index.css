@@ -218,117 +218,74 @@ html, body {
 @media only screen
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-    .pacos-texto-primersection{
-        font-size: 25px;
-    }
     .pacos-image-sitespacos-primerasection{
+        width: 90%;
+        padding-top: 0%;
+        display: block;
+        margin: auto;
+    }  
+    .pacos-enviar-contactosection{
+        margin-left: 0%;
         width: 100%;
-        padding: 0px;
+    }
+    .pacos-texto-primersection{
+        font-size: 20px;
+        margin-left: 0%;
+    }
+    .pacos-divtexto-primersection{
+        margin-left: 0%;
+    }
+    .card{
+        
+        margin-right: 0%;
     }
     .pacos-image-b2call-segundasection{
         background-size: 180% 70%;
     }
-    .pacos-divtexto-izquierda--segundasection{
-        padding-top: 45%;
-        padding-left: 10%;
-        padding-right: 20%;
-    }
     .pacos-texto-izquierda--segundasection{
-        font-size: 20px;
+        font-size: 30px;
+    }
+    .pacos-divtexto-izquierda--segundasection{
+        margin-top: 30%;
+        padding-right: 23%;
+        padding-left: 11%;
     }
     .pacos-divtexto-derecha--segundasection{
-        padding-top: 35%;
+        margin-top: 35%;
+        padding-top: 0%;
+        padding-right: 0%;
         padding-left: 0%;
-        padding-right: 20%;
+    }
+    .minitexto-movil{
+        color: white;
+        display: none;
     }
     .pacos-texto-derecha--segundasection{
-        font-size: 20px;
+        font-size: 30px;
     }
     .pacos-image-3b2call-tercerasection{
-        background-size: 190% 90%;
-    }
-    .pacos-divtexto-izquierda--tercerasection{
-        margin-top: 20%;
-        margin-left: 7%;
-        margin-right: 0%;
+        background-image: url("../images/3B2Call-movil.png");
+        background-size: 100% 90%;
     }
     .pacos-texto-izquierda--tercerasection{
         font-size: 30px;
     }
     .pacos-divtexto-derecha--tercerasection{
-        padding-left: 0%;
-        padding-right: 0%;
+        margin-top: 10%;
+        padding: 0%;
     }
-    .pacos-texto-derecha--tercerasection{
-        font-size: 20px;
-    }
-    .pacos-image-4b2call-cuartasection{
-        background-image: url(../images/4B2Call2.png);
-        background-size: 105% 70%;
-    }
-    .pacos-divtexto-izquierda--cuartasection{
-        padding-left: 30%;;
-        padding-right: 0%;
-    }
-    .pacos-texto-izquierda--cuartasection{
-     font-size: 30px;   
-    }
-    .pacos-divtexto-derecha--cuartasection{
-        margin-top: 35%;
-    }
-    .pacos-image-4b2call-quintasection{
-        background-image: url(../images/5B2Call2.png);
-        background-size: 120% 90%;
-    }
-    .pacos-texto-derecha--cuartasection{
-        font-size: 20px;
-    }
-    .pacos-divtexto-derecha--quintasection{
-        margin-top: 65%;
-        padding-left: 0%;
-        padding-right: 0%;
-        text-align: center;
-    }
-    .pacos-texto-derecha--quintasection{
-        font-size: 30px;
-    }
-    .pacos-image-4b2call-sextasection{
-        background-image: url(../images/6B2Call2.png);
-        background-size: 120% 95%;
-    }
-    .pacos-divtexto-izquierda--sextasection{
-        text-align: center;
-        margin-top: 80%;
-    }
-    .pacos-texto-izquierda--sextasection{
-        font-size: 30px;
-    }
-    .pacos-divtexto-derecha--sextasection{
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-    .pacos-texto-derecha--sextasection{
-        font-size: 20px;
+    .pacos-divtexto-izquierda--tercerasection{
+        margin-top: 20%;
     }
     .pacos-image-4b2call-septimasection{
-        background-image: url(../images/7B2Call2.png);
-        background-size: 110% 93%;
+        background-image: url('../images/7B2Call2.png');
+        background-size: 100% 100%;
     }
     .pacos-divtexto-izquierda--septimasection{
-        text-align: center;
-        padding-top: 110%;
-        padding-left: 0%;
-        padding-right: 0%;
+        padding: 0%;
+        margin-top: 90%;
     }
-    .pacos-divtexto-izquierda--contactosection{
-        text-align: center;
-    }
-    .pacos-button--arrow-down-contactosection{
-        margin: 0%;
-        transform: rotate(90deg);
-    }
-    .card{
-        max-width: 100%;
-        margin-left: 0%;
+    .pacos-texto-izquierda--septimasection{
+        font-size: 30px;
     }
 }

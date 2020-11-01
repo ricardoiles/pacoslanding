@@ -23,7 +23,8 @@
 		    </div>
 	    </div>
 		<div class="column is-4 pacos-somos--div-right">
-			<img class="pacos-somos--sites-image" src="{{ asset('images/quienessomos1.png') }}">
+			<img class="pacos-somos--sites-image-web" src="{{ asset('images/quienessomos1.png') }}">
+			<img class="pacos-somos--sites-image-movil" src="{{ asset('images/quienessomos1-movil.png') }}">
 		</div>
 	</div>
 </section>
@@ -41,7 +42,7 @@
 		        <b class="">Ricardo Iles</b>
 		        <p>CEO Plataforma de lanzamiento</p>
 		        <p>Emprendedor, desarrollador y diseñador web junior</p>
-		        <a href="http://bit.ly/riccardoiles" target="_blank"><button class="button is-rounded pacos-team-pdl-go-btn"> Portafolio web</button></a>
+		        <a href="http://bit.ly/riccardoiles" target="_blank"><button class="button is-rounded pacos-team-pdl-go-btn"> Sitio web</button></a>
 		    </div>
 		    <div class="column is-4">
 		    	<img class="pacos-team-pdl-logoPDL" src="{{ asset('images/logoPDL.png') }}">

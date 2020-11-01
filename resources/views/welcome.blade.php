@@ -14,7 +14,7 @@
 			<div class="card">
 				<div class="card-content pacos-card-head">
 					<p class="title">
-					  <b class="pacos-red-text">#PACOS_es</b> la red social de los sitios de comida, donde encontraras detalles y reseñas especificas de los sitios micro, pequeños y medianos y su comida.
+					  <b class="pacos-red-text">#PACOS_es</b> la red social que te permite interactuar con cualquier sitio de comida a tu alrededor.
 					  <b class="pacos-red-text">¡Suscribete y recibe soluciones!</b>
 					</p>
 				</div>
@@ -89,7 +89,7 @@
 	        <br><br>
 	    </div>
 	    <div class="column is-6 pacos-divtexto-derecha--segundasection">
-	    	<label class="pacos-minitext">A menudo buscas por redes sociales</label>        
+	    	<label class="pacos-minitext minitexto-movil">A menudo buscas por redes sociales</label>        
 	        <b class="pacos-texto-derecha--segundasection">
 	        	<br>¿Cuánto tardas en elegir?<br> 
 	        </b>

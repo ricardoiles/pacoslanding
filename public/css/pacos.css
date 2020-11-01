@@ -238,6 +238,9 @@ and (max-device-width : 480px) {
     }
     .pacos-divtexto-derecha--segundasection{
         padding-top: 0%;
+        padding-top: 0%;
+        margin-top: -30%;
+        padding: 0%;
     }
     .pacos-texto-derecha--segundasection{
         font-size: 30px;
@@ -269,8 +272,16 @@ and (max-device-width : 480px) {
     }
     .pacos-image-4b2call-septimasection{
         background-image: url(../images/4B2Ball-2.png);
-        background-size: 120% 85%;
+        background-size: 100% 100%;
+        margin-top: 110%;
     }
+
+    .pacos-texto-izquierda--septimasection{
+        font-size: 30px;
+    }
+
+
+
     .pacos-divtexto-izquierda--septimasection{
         margin-top: 80%;
         text-align: center;
@@ -296,7 +307,7 @@ and (max-device-width : 480px) {
     }
     .pacos-image-4b2call-sextasection{
         background-image: url(../images/6B2Ball2.png);
-        background-size: 110% 90%;
+        background-size: 110% 100%;
     }
     .pacos-divtexto-izquierda--sextasection{
         padding-top: 95%;
@@ -307,7 +318,7 @@ and (max-device-width : 480px) {
     }
     .pacos-image-4b2call-ultimasection{
         background-image: url(../images/7B2Ball2.png);
-        background-size: 115% 100%;
+        background-size: 110% 100%;
     }
     .pacos-divtexto-izquierda--ultimasection{
         padding-top: -100px;
@@ -337,5 +348,8 @@ and (max-device-width : 480px) {
     .card{
         max-width: 100%;
         margin-left: 0%;
+    }
+    .pacos-divtexto-derecha--sextasection{
+        back
     }
 }
